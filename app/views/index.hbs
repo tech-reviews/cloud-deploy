@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="cache-control" content="no-cache">
+    <title>Coming Soon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet" />
+    <style type="text/css">
+      html {
+        font-family: 'Roboto', sans-serif;
+        background: rgb(21, 20, 29);
+      }
+      .container {
+        display: grid;
+        place-items: center;
+        width: 100vw;
+        height: 40vh;
+      }
+      .logo {
+        width: 418px;
+      }
+      .tag {
+        margin: 0;
+        padding-top: 10px;
+        text-transform: uppercase;
+        letter-spacing: 2.5px;
+        text-align: center;
+        line-height: 1;
+      }
+      .asset-name {
+        font-size: 2em;
+        font-weight: 100;
+        color: rgb(216, 214, 231);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="centered-wrapper">
+        <p class="tag animate__animated animate__fadeIn asset-name">{{serviceLabel}}</p>
+      </div>
+    </div>
+  </body>
+</html>
