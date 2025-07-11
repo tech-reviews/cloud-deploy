@@ -4,11 +4,11 @@ To demonstrate that you have the knowledge to use Terraform and bash to prepare 
 
 Please describe your thought-process while performing the tasks and steps needed to complete this. 
 
-You may use any resources available to you such as online documentation, the interviewer(s), AI, etc.
+You may use any resources available to you such as online documentation, the interviewer(s), AI for thoughtful questions, etc.
 
 ### Setup
 
-- Fork this repository, clone your new repo to your machine and create a feature branch for this work
+- Fork this repository, clone your new fork to your machine and create a feature branch for this work
 
 ### Requirements
 
